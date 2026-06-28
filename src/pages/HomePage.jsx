@@ -5,7 +5,6 @@ const AboutSection = lazy(() => import("../components/AboutSection.jsx"));
 const WhatWeDoSection = lazy(() => import("../components/WhatWeDoSection.jsx"));
 const VisionSection = lazy(() => import("../components/VisionSection.jsx"));
 const FounderSection = lazy(() => import("../components/FounderSection.jsx"));
-const RoadmapSection = lazy(() => import("../components/RoadmapSection.jsx"));
 const CTASection = lazy(() => import("../components/CTASection.jsx"));
 const Footer = lazy(() => import("../components/Footer.jsx"));
 
@@ -38,9 +37,6 @@ export default function HomePage() {
       </Suspense>
       <Suspense fallback={<SectionSkeleton minHeight={420} />}>
         <FounderSection />
-      </Suspense>
-      <Suspense fallback={<SectionSkeleton minHeight={420} />}>
-        <RoadmapSection />
       </Suspense>
       <Suspense fallback={<SectionSkeleton minHeight={320} />}>
         <CTASection />

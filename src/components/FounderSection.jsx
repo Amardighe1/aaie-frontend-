@@ -42,9 +42,7 @@ export default function FounderSection() {
   return (
     <section id="founder" className="relative">
       <SectionDivider className="opacity-60" />
-
-      <div className="mx-auto max-w-[1200px] px-4 py-16 md:py-24">
-        <div className="grid gap-10 lg:grid-cols-12 lg:items-start">
+      <div className="mx-auto max-w-[1200px] px-4 pt-16 pb-8 md:pt-24 md:pb-8">
           {/* Photo */}
           <div className="lg:col-span-5">
             <Reveal delay={0.05}>

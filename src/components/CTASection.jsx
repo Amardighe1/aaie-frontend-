@@ -32,8 +32,6 @@ export default function CTASection() {
 
   return (
     <section id="cta" className="relative overflow-hidden">
-      <SectionDivider className="opacity-60" />
-
       {/* Background */}
       <div
         aria-hidden="true"
